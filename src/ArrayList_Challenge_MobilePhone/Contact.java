@@ -1,0 +1,19 @@
+package ArrayList_Challenge_MobilePhone;
+
+public class Contact {
+    private String name;
+    private String PhoneNumber;
+
+    public Contact(String name, String phoneNumber) {
+        this.name = name;
+        PhoneNumber = phoneNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return PhoneNumber;
+    }
+}
