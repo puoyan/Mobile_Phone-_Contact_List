@@ -108,7 +108,7 @@ public class Main {
             return;
         }
         if(mobilePhone.removeContact(existingContactRecord)){
-            System.out.println("Successfully deleted0 record");
+            System.out.println("Successfully deleted record");
         }else {
             System.out.println("Error updating record");
         }
